@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+html {
+  font-size: 0.9rem;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  color: rgb(21, 21, 21);
+  font-family: 'Nunito', sans-serif;
+}
+
+button {
+  padding: 10px 14px;
+  background: rgb(255,156,0);
+  background: linear-gradient(0deg, rgba(255,156,0,1) 0%, rgba(255,196,141,1) 100%);
+  border: 0;
+  border-radius: 28px;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER - Section - class[main-header] */
+
+.main-header {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-image: url('./images/bg.webp');
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.main-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.main-header ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.main-section {
+  margin: 18px;
+  padding: 20px 28px ;
+  background: white;
+  color: rgb(36, 134, 195);
+  border-radius: 28px;
+  text-align: left;
+}
+
+.main-section h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.main-section h1:nth-of-type(2) {
+  color: rgb(242, 140, 157);
+}
+
+.main-section p {
+  color:rgb(21, 21, 21);
+}
+
+.main-section button {
+  margin-right: 20px;
+  padding: 14px 22px;
+}
+
+.main-section a {
+  color: rgb(95, 124, 142);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* MAIN - Section - class[main-content] */
+.main-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content .card {
+  margin: 18px;
+  padding: 18px;
+  color:rgb(21, 21, 21);
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.35);
+  border-radius: 28px;
+}
+
+.main-content .card img {
+  background: rgb(255, 217, 165);
+  border-radius: 100%;
+  width: 40px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-header {
+    height: 500px;
+    justify-content: start;
+  }
+  .main-header ul {
+    flex-direction: row;
+    gap: 50px;
+    font-weight: 400;
+  }
+
+  .main-navbar {
+    width: calc(100% - 180px);
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-section {
+    margin: 120px 90px;
+    padding: 40px 50px;
+    width: 350px;
+    align-self: start;
+  }
+
+  .main-content {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-content .card {
+    width: 350px;
+  }
+}
