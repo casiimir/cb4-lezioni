@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  padding: 10px 20px;
+  color: lightseagreen;
+  border: 2px solid lightseagreen
+}
