@@ -5,18 +5,29 @@ Completare l'esercitazione numero 2 di ieri. Quindi cominciare a predere dimesti
 ### Avanzato
 Creare un array di oggetti e processarne i valori.
 Bisogna creare una funzione che:
-- preso come argomento l'array di oggetti, tre console.log uno per le seguenti tipologie:
+- preso come argomento l'array di oggetti, mostri in tre console.log le seguenti tipologie, per ogni oggetto:
 - - title
 - - price
 - - count
 
 L'oggetto in questione lo si trova qui in basso.
 
-
-
-
+Il risultato finale dovrà essere qualcosa del genere:
 
 ```
+-> Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+-> 109.95
+-> 120
+-> -------------------
+-> Mens Casual Premium Slim Fit T-Shirts
+-> 22.3
+-> 259
+-> -------------------
+-> ...
+-> ...
+-> ..
+
+
 [
     {
         "id": 1,
