@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="friends"></section>
+  <section class="messages">
+    <div class="add-new-message">
+      <input type="text" class="input-text" id="input-text" placeholder="Scrivi il tuo messaggio">
+      <input type="text" class="input-sender" id="input-sender" placeholder="Chi sei?">
+      <button class="add-new-message-btn">Invio messaggio</button>
+    </div>
+    <div class="filter">
+      <input type="text" class="filter-input" id="filter-input" placeholder="Filtra per...">
+    </div>
+    <div class="messages-list"></div>
+  </section>
+  <section class="empty"></section>
+  <script src="./script.js" type="module"></script>
+  <script src="./utils.js" type="module"></script>
+  <script src="./api.js" type="module"></script>
+</body>
+</html>

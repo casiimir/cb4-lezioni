@@ -1,0 +1,95 @@
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  background: lightcoral;
+}
+
+.friends img {
+  width: 35px;
+  padding: 10px;
+  background: white;
+  border-radius: 100%;
+}
+
+.friendCard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 150px;
+  padding: 20px 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  background: white;
+
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  background: lightseagreen;
+}
+
+.add-new-message {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px;
+}
+
+.filter-input {
+  margin: 0 20px;
+}
+
+.messageCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px dotted;
+  padding: 0 20px;
+}
+
+.messages-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.empty {
+  width: 100%;
+  background: lightyellow;
+}
+
+@media only screen and (min-width: 767px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .friends {
+    width: 25%;
+  }
+  
+  .messages {
+    width: 33%;
+    flex-grow: 1;
+  }
+  
+  .empty {
+    width: 25%;
+  }
+}
