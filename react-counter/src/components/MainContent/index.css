@@ -1,0 +1,9 @@
+.MainContent {
+  height: calc(100vh -30px);
+  margin: 0 80px;
+  color: lightslategray;
+}
+
+.MainContent__secondHeader {
+  color: rgb(40, 40, 40);
+}

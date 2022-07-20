@@ -1,0 +1,30 @@
+.Counter {
+  width: 150px;
+  padding: 14px;
+  text-align: center;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.Counter__header {
+  color: lightseagreen;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2.6rem;
+}
+
+.Counter__increment {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 6px;
+  background-color: lightseagreen;
+  color: rgb(244, 244, 244);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Counter__increment:hover {
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.Counter__increment:active {
+  box-shadow: inset 0 0 4px black;
+}

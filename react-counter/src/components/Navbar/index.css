@@ -1,0 +1,23 @@
+.Navbar {
+  margin-bottom: 20px;
+  height: 30px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar__list {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.Navbar__list a {
+  color: lightseagreen;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Navbar__list a:hover {
+  color: rgb(10, 101, 96);
+}
