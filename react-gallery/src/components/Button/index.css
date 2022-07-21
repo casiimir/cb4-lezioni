@@ -1,0 +1,17 @@
+.Button {
+  padding: 10px 16px;
+  border: 0;
+  font-weight: bold;
+  color: rgb(19, 19, 19);
+  cursor: pointer;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.Button:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.Button:active {
+  background-color: lightgray
+}

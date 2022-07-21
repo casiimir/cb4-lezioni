@@ -1,0 +1,22 @@
+.ImageCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* margin: 10px 10px 10px 20px; */
+  margin: 10px;
+  max-width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.318);
+  cursor: pointer;
+  /* scroll-snap-align: start; */
+}
+
+.ImageCard__img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.ImageCard__par {
+  padding: 0 6px;
+  font-size: 0.9rem;
+}
