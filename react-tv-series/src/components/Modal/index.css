@@ -1,0 +1,35 @@
+.Modal {
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 300px);
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  color: rgb(32, 32, 32);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.Modal__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.Modal__img {
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.Modal__desc {
+  padding: 0 20px;
+}

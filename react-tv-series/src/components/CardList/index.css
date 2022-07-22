@@ -1,0 +1,18 @@
+.CardList {
+  margin: 0 20px;
+}
+
+.CardList__top {
+  width: 100%;
+  text-align: left;
+  font-size: 1.8rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(26, 26, 26);
+}
+
+.CardList__list {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
