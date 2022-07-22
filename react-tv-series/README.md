@@ -2,7 +2,7 @@
 Sulla base del lezione del giorno
 - aggiungere una sezione di series o movies che prenda però i dati non da server ma da locale (create un mock vostro)
 - - (provare a riutilizzare il componente CardList)
-- Aggiungere una navbar e un footer, vanno benissimo quelli creati nei giorni precedenti (senza alcun pulsate! :))
+- Aggiungere una navbar e un footer, vanno benissimo quelli creati nei giorni precedenti (senza alcun pulsante! :))
 
 
 # Avanzato
