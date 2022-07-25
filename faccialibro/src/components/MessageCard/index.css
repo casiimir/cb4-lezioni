@@ -1,0 +1,18 @@
+.MessageCard {
+  padding: 6px 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 2px rgba(24, 24, 24, 0.45);
+
+}
+
+.MessageCard__text{
+  font-size: 1rem;
+}
+
+.MessageCard__info{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: rgb(174, 174, 174);
+}

@@ -1,0 +1,10 @@
+.App {
+  color: rgb(24, 24, 24);
+  display: flex;
+  justify-content: space-between;
+}
+
+.App_messages {
+  padding: 20px;
+  width: 400px;
+}
