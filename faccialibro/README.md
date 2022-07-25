@@ -9,3 +9,9 @@ Sulla base della lezione del giorno:
 
 ### Avanzato
 - Provare a scrivere un algoritmo (funzione) che ordini la lista dei messaggi (di `MessageCardList`) in base alla data presente nell'array alla chiave `date`.
+
+
+##### Utils
+Gli endpoints ai fini dell'esercitazione
+- https://edgemony-backend.herokuapp.com/friends
+- https://edgemony-backend.herokuapp.com/messages
