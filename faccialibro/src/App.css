@@ -1,10 +1,23 @@
 .App {
   color: rgb(24, 24, 24);
   display: flex;
-  justify-content: space-between;
+  font-size: 0.9rem;
+  justify-content: space-evenly;
+}
+
+.App__friends {
+  color: lightgrey;
 }
 
 .App_messages {
   padding: 20px;
   width: 400px;
+}
+
+@media (max-width: 767px) {
+  .App {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

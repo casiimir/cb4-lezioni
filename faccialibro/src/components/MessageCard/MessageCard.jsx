@@ -1,8 +1,19 @@
+import { DELETE } from '../../utils/api';
 import './index.css';
 
-const MessageCard = ({textContent}) => {
+const MessageCard = ({textContent, isRenderedList, onDeleteBtn}) => {
+  const onBtnClick = () => {
+    const value = window.confirm('Sicuro di voler cancellare il messaggio?');
+
+    if (value) {
+      DELETE('messages', textContent.id)
+        .then(() => onDeleteBtn(!isRenderedList))
+    }
+  }
+
   return (
     <div className="MessageCard">
+      <button onClick={onBtnClick} className="MessageCard__delete">X</button>
       <p className="MessageCard__text">
         { textContent.text }
       </p>

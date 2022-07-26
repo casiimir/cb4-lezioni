@@ -4,7 +4,7 @@ import { POST } from '../../utils/api.js';
 import Button from '../Button';
 import './index.css';
 
-const AddMessage = () => {
+const AddMessage = ({ isRenderedList, onAddButton }) => {
   // Controlled component!!! - Forms e input
   const [messageText, setMessageText] = useState('');
   const [sender, setSender] = useState('');
@@ -20,7 +20,8 @@ const AddMessage = () => {
       })
       .then(() => {
         setMessageText('');
-        setSender('')
+        setSender('');
+        onAddButton(!isRenderedList);
       })
     }
   }

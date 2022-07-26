@@ -1,0 +1,28 @@
+.FriendCard {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  color: rgb(23, 23, 23);
+  cursor: pointer;
+  transition: all .35s;
+  border-radius: 8px;
+}
+
+.FriendCard:hover {
+  background: lightseagreen;
+}
+
+.FriendCard__photo {
+  width: 75px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.FriendCard__name {
+  padding: 4px 14px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 100%;
+}

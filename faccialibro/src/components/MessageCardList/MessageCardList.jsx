@@ -1,22 +1,20 @@
 import { useState, useEffect } from 'react';
-import MessageCard from '../MessageCard'
+import MessageCard from '../MessageCard';
+import { GET } from '../../utils/api';
 import './index.css';
 
-const MessageCardList = () => {
+const MessageCardList = ({ isRenderedList, setRenderedList }) => {
   const [messageList, setMessageList] = useState([]);
 
   useEffect(() => {
-    fetch('https://edgemony-backend.herokuapp.com/messages')
-      .then(res => res.json())
-      .then(data => setMessageList(data))
-  }, [])
+      GET('messages').then((data) => setMessageList(data));
+  }, [isRenderedList]);
 
   return (
     <div className="MessageCardList">
-      
       {
         messageList.length
-          ? messageList.map(message => <MessageCard textContent={ message } key={ message.id }/>)
+          ? messageList.map(message => <MessageCard isRenderedList={isRenderedList} onDeleteBtn={setRenderedList} textContent={ message } key={ message.id }/>)
           : <p>Loading...</p>
       }
     </div>
