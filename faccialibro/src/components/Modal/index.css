@@ -1,0 +1,15 @@
+.Modal {
+  position: fixed;
+  top: calc(50% - 50px);
+  height: 100px;
+  padding: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  background-color: ghostwhite;
+  z-index: 9;
+}
+
+.Modal__btns {
+  display: flex;
+  gap: 10px;
+}

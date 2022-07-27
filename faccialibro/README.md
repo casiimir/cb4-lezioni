@@ -27,3 +27,13 @@ Sulla base della lezione del giorno:
 ### Avanzato
 - Il filtro funzionarà anche per click sulla lista degli amici
 - Attenzione: badate bene che ci sia almeno un messaggio con il nome che state cercando (anche nel caso del filtro per input)
+
+## 27/07/2022
+### Esercizio 1
+- Creare un componente Navbar che implementi (a scelta) i classici elementi di una navbar. È indispensabile l'aggiunta di un logo.
+
+### Esercizio 2
+- Come utente finale, sotto la lista degli amici, vorrei poter visualizzare una sezione (create un componente) che permetta di aggiungere un nuovo amico. (Esatto! Proprio come abbiamo fatto per la lista dei messaggi!)
+
+### Avanzato
+- Ogni amico può essere rimosso dalla lista, cliccando appositamente sulla sua icona.

@@ -44,7 +44,7 @@ const AddMessage = ({ isRenderedList, onAddButton }) => {
         onChange={(e) => setSender(e.target.value)}
         required
       />
-      <Button type="submit" textContent='Invia' color='lightseagreen' />
+      <Button type="submit" btnTextContent='Invia' color='lightseagreen' />
     </form>
   )
 }

@@ -18,7 +18,7 @@ const FriendCardList = () => {
     <div className="FriendCardList">
       {
         friendList.length
-          ? friendList.map(friend => <FriendCard friendData={friend}/>)
+          ? friendList.map(friend => <FriendCard friendData={friend} key={friend.id}/>)
           : <p>Loading...</p>
       }
     </div>

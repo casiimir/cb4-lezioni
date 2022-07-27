@@ -1,19 +1,19 @@
+import { useState } from 'react';
 import { DELETE } from '../../utils/api';
+import Modal from '../Modal';
 import './index.css';
 
 const MessageCard = ({textContent, isRenderedList, onDeleteBtn}) => {
-  const onBtnClick = () => {
-    const value = window.confirm('Sicuro di voler cancellare il messaggio?');
+  const [isModalVisibile, setModalVisibility] = useState(false);
 
-    if (value) {
-      DELETE('messages', textContent.id)
-        .then(() => onDeleteBtn(!isRenderedList))
-    }
+  const onModalConfirm = () => {
+    DELETE('messages', textContent.id)
+      .then(() => onDeleteBtn(!isRenderedList))
   }
 
   return (
     <div className="MessageCard">
-      <button onClick={onBtnClick} className="MessageCard__delete">X</button>
+      <button onClick={() => setModalVisibility(true)} className="MessageCard__delete">X</button>
       <p className="MessageCard__text">
         { textContent.text }
       </p>
@@ -25,6 +25,7 @@ const MessageCard = ({textContent, isRenderedList, onDeleteBtn}) => {
           { textContent.date }
         </p>
       </div>
+      { isModalVisibile && <Modal modalTextContent="Vuoi cancellare il messaggio?" onModalConfirm={onModalConfirm} setModalVisibility={setModalVisibility}/>}
     </div>
   )
 }
