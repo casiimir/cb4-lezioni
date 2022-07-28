@@ -1,0 +1,27 @@
+.Splashscreen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: rgb(32,178,170);
+  background: linear-gradient(0deg, rgba(32,178,170,1) 0%, rgba(55,232,222,1) 100%);
+  color: white;
+}
+
+.Splashscreen__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Splashscreen__form--input {
+  padding: 10px 10px 10px 6px;
+  border: 0;
+  border-radius: 6px;
+  color: rgb(9, 104, 100);
+  font-weight: bold;
+  outline: none;
+}
+

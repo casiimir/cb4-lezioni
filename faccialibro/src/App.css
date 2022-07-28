@@ -1,7 +1,10 @@
 .App {
   color: rgb(24, 24, 24);
-  display: flex;
   font-size: 0.9rem;
+}
+
+.App__main {
+  display: flex;
   justify-content: space-evenly;
 }
 
@@ -15,7 +18,7 @@
 }
 
 @media (max-width: 767px) {
-  .App {
+  .App__main {
     flex-direction: column;
     justify-content: center;
     align-items: center;

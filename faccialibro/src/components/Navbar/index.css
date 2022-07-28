@@ -1,0 +1,49 @@
+/* Navbar Component */
+
+.Navbar {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid ghostwhite;
+}
+
+.Navbar__img {
+  width: 70px;
+}
+
+.Navbar__list {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+/* ListItem Component */
+
+.ListItem {
+  padding: 8px 12px;
+  background-color: ghostwhite;
+  border-radius: 6px;
+  transition: all .35s;
+}
+
+.ListItem:hover {
+  background-color: lightseagreen;
+}
+
+.ListItem__link {
+  color: rgb(23, 23, 23);
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.ListItem__link:hover {
+  color: ghostwhite;
+}
+
+@media (max-width: 767px) {
+  .Navbar__img {
+    width: 40px;
+  }
+}

@@ -37,3 +37,14 @@ Sulla base della lezione del giorno:
 
 ### Avanzato
 - Ogni amico può essere rimosso dalla lista, cliccando appositamente sulla sua icona.
+
+## 28/07/2022
+### Esercizio 1
+- Sostituire il comportamento della Splashscreen riutilizzando il componente Modale. Attenzione: siate liberi di implementare la funzionalità come più vi aggrada.
+
+### Esercizio 2
+- Se qualche esercizio precedente è stato saltato, recuperarlo oggi, è il momento giusto!
+
+### Avanzato
+- (solo per chi ha già finito tutto il resto sopra)
+- Completare la pagina ottimizzandone il design e aggiungendo eventualmente nuovi componenti (non logici, ma solo di stile) al fine di rendere la pagina più piacevole alla vista (per esempio una `Hero` o/e un `Carosello` o/e `Slider` o/e ... ).

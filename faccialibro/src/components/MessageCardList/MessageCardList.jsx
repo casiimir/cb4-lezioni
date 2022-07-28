@@ -16,7 +16,7 @@ const MessageCardList = ({ isRenderedList, setRenderedList }) => {
       <Button btnTextContent="Update list" onHandleClick={() => setRenderedList(!isRenderedList)}/>
       {
         messageList.length
-          ? messageList.map(message => <MessageCard isRenderedList={isRenderedList} onDeleteBtn={setRenderedList} textContent={ message } key={ message.id }/>)
+          ? messageList.reverse().map(message => <MessageCard isRenderedList={isRenderedList} onDeleteBtn={setRenderedList} textContent={ message } key={ message.id }/>)
           : <p>Loading...</p>
       }
     </div>

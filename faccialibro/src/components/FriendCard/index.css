@@ -1,5 +1,5 @@
 .FriendCard {
-  width: 180px;
+  width: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,7 @@
 
 .FriendCard__photo {
   width: 75px;
+  max-height: 70px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
@@ -24,5 +25,29 @@
   padding: 4px 14px;
   font-size: 0.9rem;
   font-weight: bold;
-  width: 100%;
+  width: 80px;
+}
+
+.FriendCard__btn {
+  position: relative;
+  top: -46px;
+  padding: 6px 10px;
+  background-color: lightcoral;
+  border: 0;
+  border-radius: 100%;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 1.35s;
+  transform: scale(0.6);
+}
+
+.FriendCard__btn:hover {
+  transform: scale(1.4) rotate(359deg);
+}
+
+.FriendCard__btn:active {
+  color: lightseagreen;
 }
