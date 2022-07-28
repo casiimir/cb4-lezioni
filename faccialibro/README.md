@@ -47,4 +47,4 @@ Sulla base della lezione del giorno:
 
 ### Avanzato
 - (solo per chi ha già finito tutto il resto sopra)
-- Completare la pagina ottimizzandone il design e aggiungendo eventualmente nuovi componenti (non logici, ma solo di stile) al fine di rendere la pagina più piacevole alla vista (per esempio una `Hero` o/e un `Carosello` o/e `Slider` o/e ... ).
+- Completare la pagina ottimizzandone il design e aggiungendo eventualmente nuovi componenti al fine di rendere la pagina più piacevole alla vista (per esempio una `Hero` o/e un `Carosello` o/e `Slider` o/e ... ).
