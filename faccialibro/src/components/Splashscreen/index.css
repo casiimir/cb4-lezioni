@@ -1,11 +1,28 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .Splashscreen {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background: rgb(32,178,170);
   background: linear-gradient(0deg, rgba(32,178,170,1) 0%, rgba(55,232,222,1) 100%);
   color: white;
+}
+
+.Splashscreen__gallery {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.Splashscreen__gallery--img {
+  border-radius: 6px;
+}
+
+.image-gallery-icon,
+.image-gallery-left-nav {
+  display: none;
 }
 
 .Splashscreen__form {

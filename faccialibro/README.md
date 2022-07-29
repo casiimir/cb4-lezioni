@@ -47,4 +47,18 @@ Sulla base della lezione del giorno:
 
 ### Avanzato
 - (solo per chi ha già finito tutto il resto sopra)
-- Completare la pagina ottimizzandone il design e aggiungendo eventualmente nuovi componenti al fine di rendere la pagina più piacevole alla vista (per esempio una `Hero` o/e un `Carosello` o/e `Slider` o/e ... ).
+- Completare la pagina ottimizzandone il design e aggiungendo eventualmente nuovi componenti (non logici, ma solo di stile) al fine di rendere la pagina più piacevole alla vista (per esempio una `Hero` o/e un `Carosello` o/e `Slider` o/e ... ).
+
+## 29/07/2022
+### Esercizio 1
+- Per chi non avesse completato gli esercizi passati, oggi è l'ultimo giorno per poterlo fare!!!
+
+### Esercizio 2
+- Creare un button o una sezione di log-out che una volta premuto riporti alla splash-screen (o alla modale, in base a come l'avete fatto) che richiede nuovamente il nome dell'utente.
+- Attenzione: pertanto lavorate sulla rimozione dei valori in localStorage.
+
+### Avanzato
+- È tempo di `Refactoring`! Adesso che avete il vostro progettino social personale, cancellare:
+- - tutti i `console.log`
+- - tutti i commenti che non siano utili
+- - sellire giusto un pochino la logica se possibile (usare ternario al posto di if e cose cosi...)
