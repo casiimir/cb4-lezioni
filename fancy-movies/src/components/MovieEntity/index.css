@@ -1,0 +1,81 @@
+.MovieEntity {
+  display: flex;
+  background-color: rgb(26, 0, 45);;
+  color: white;
+  text-transform: uppercase;
+}
+
+.MovieEntity__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 22%;
+  padding: 20px;
+}
+
+.MovieEntity__info--title {
+  transform: translate(100px, 120px);
+}
+
+.MovieEntity__info--title h1 {
+  font-size: 4rem;
+}
+
+.MovieEntity__info--bottom {
+  position: relative;
+  width: 100%;
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.MovieEntity__info--bottom p:nth-child(1),
+.MovieEntity__info--bottom p:nth-child(3) {
+  color: rgb(169, 169, 169);
+}
+
+.MovieEntity__info--bottom ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.MovieEntity__info--bottom--tagline {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  writing-mode: vertical-rl;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 300px;
+  transform: translateY(-120px);
+}
+
+.MovieEntity__poster {
+  width: 56%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.MovieEntity__book {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 22%;
+}
+
+.MovieEntity__book--btn {
+  width: 200px;
+  padding: 20px 30px;
+  border: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.65);
+  transform: translate(-100px, -120px);
+  transition: all 0.35s;
+}
+
+.MovieEntity__book--btn:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,32 @@
+.MainInput {
+  height: 40px;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: calc(50% - 170px);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  transition: all .35s;
+}
+
+.MainInput input {
+  padding-left: 14px;
+  width: 240px;
+  border: 0;
+  outline: none;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.MainInput button {
+  width: 100px;
+  border: 0;
+  font-weight: bold;
+  background-color: white;
+  border-left: 1px solid lightgrey;
+  cursor: pointer;
+
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
