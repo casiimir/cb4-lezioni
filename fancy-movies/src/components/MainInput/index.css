@@ -1,12 +1,13 @@
 .MainInput {
   height: 40px;
   display: flex;
-  position: absolute;
+  position: fixed;
   top: 40px;
   left: calc(50% - 170px);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
   border-radius: 8px;
   transition: all .35s;
+  z-index: 1;
 }
 
 .MainInput input {

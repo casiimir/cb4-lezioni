@@ -1,4 +1,4 @@
-# Esercitazioni
+# Esercitazione - 30 Agosto
 
 ### ESERCIZIO 1
 - Sulla base della lezione odierna, creare un account e ottenere una api-key da MovieDB `https://www.themoviedb.org/`
@@ -15,3 +15,14 @@
 
 ### Per gli audaci
 - Riguardo al punto 2 dell'esercizio 2, è possibile avere il risultato di cui abbiamo parlato a lezione? Ovvero il `search` della input come cerchio al cui click si anima e si espande la input, precedentemente nascosta. (Attenzione: questo es. non è obbligatorio!)
+
+# Esercitazione - 31 Agosto
+
+### ESERCIZIO 1
+- Sulla base della lezione del giorno, trasformare la prop `cardStyle` di MainCard di modo chè accetti non più lo stile dinamico bensì una classe dinamica definita nello setto MainCard.
+- Adottare le dovute accortezze anche su TopRatedList
+
+### ESERCIZIO 2 
+- Continuare con il rendering dei vari elementi che arrivano via chiamata API in MainSection, seguendo quello che è il mock design di seguito (o fare pure a scelta propria). L'unica richiesta è usare tutte e tre le chiamate, anche parzialmente.
+
+<img src="design-mock1.png" alt="design mock 1" height="300">

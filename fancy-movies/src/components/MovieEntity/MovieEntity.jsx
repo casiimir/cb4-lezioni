@@ -41,13 +41,10 @@ const MovieEntity = ({ movieID }) => {
           <p className="MovieEntity__info--bottom--tagline">{ tagline }</p>
         </div>
       </div>
-      <img className="MovieEntity__poster" src={`https://image.tmdb.org/t/p/original${poster_path}`} alt={original_title}/>
+      <img className="MovieEntity__poster" src={poster_path && `https://image.tmdb.org/t/p/original${poster_path}`} alt={original_title}/>
       <div className="MovieEntity__book">
         <button className="MovieEntity__book--btn">Book it!</button>
       </div>
-      {
-        movieData ? console.log(movieData) : <p>loading...</p>
-      }
     </div>
   )
 }

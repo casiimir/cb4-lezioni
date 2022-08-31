@@ -7,6 +7,7 @@ const MainInput = () => {
   const [inputValue, setInputValue] = useState("");
 
   useEffect(() => {
+    console.log(inputRef.current.value)
     inputRef.current.focus()
   }, []);
 
