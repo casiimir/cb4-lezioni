@@ -1,0 +1,19 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(16, 0, 28);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+  z-index: 9;
+}
+
+.Navbar ul {
+  padding: 0 0 0 20px;
+  list-style-type: none;
+}
+
+.Navbar ul li a {
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+}

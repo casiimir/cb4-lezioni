@@ -26,3 +26,17 @@
 - Continuare con il rendering dei vari elementi che arrivano via chiamata API in MainSection, seguendo quello che è il mock design di seguito (o fare pure a scelta propria). L'unica richiesta è usare tutte e tre le chiamate, anche parzialmente.
 
 <img src="design-mock1.png" alt="design mock 1" height="300">
+
+
+# Esercitazione - 1 Settembre
+
+### ESERCIZIO 1
+- All'interno del componente MainSection trovare una soluzione valida alla riga 32 per quanto riguarda il filtro dei movies Top Rated, riguado al problemino sollevatosi a lezione
+
+- Sulla base della lezione del giorno, modificare il componente Navbar di modo che sia ormai più "fit" possibile con il vostro progettino (man mano sempre più completo)
+
+- Rileggere e comprendere (per bene!) il funzionamento dell'`addEventListener` applicato al componente MainInput, nella fattispecie il comportamento che allo scroll della pagina fa comparire la input e il bottone di ricerca. 
+##### Consiglio vivamente di cancellare tutto il codice relativo e riscriverlo
+
+### ESERCIZIO 2
+- Creare un componente MainModal che verrà lanciata al click del componente MainCard. Ricordo di passare i dati perchè serviranno per renderizzare il contenuto della modale stessa in base al film cliccato
