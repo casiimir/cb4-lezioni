@@ -40,3 +40,21 @@
 
 ### ESERCIZIO 2
 - Creare un componente MainModal che verrà lanciata al click del componente MainCard. Ricordo di passare i dati perchè serviranno per renderizzare il contenuto della modale stessa in base al film cliccato
+
+
+# Esercitazione - 2 Settembre
+
+### ESERCIZIO 1
+- Sulla base della lezione del giorno, rivedere tutto il progetto, ottimizzarlo o implmentare funzionalità se necessario.
+
+- Utilizzare la `HOC memo` al fine di migliorare la performance di quei componenti che rispettano l'utilizzo di tale processo di improve.
+
+- Ricreare la struttura del progetto vista a fine lezione, provare a ridisegnarla (anche con excalidraw) senza guardare la lezione stessa.
+(Saper organizzare una struttura grafica (architettura) di progetto è utilissimo, sopratutto quando il progetto acquisisce volume e complessità)
+
+### Avanzato
+- Al fine di una ottimizzazione totale dell'applicazione, cerca e applicare, dove necessario, anche `useCallback` e `useMemo`, tenendo sempre a mente la differenza di utilizzo, quando usare uno o l'altro.
+
+
+##### Riepilogo finale
+<img src="recap1.png" alt="design mock 1" height="300">

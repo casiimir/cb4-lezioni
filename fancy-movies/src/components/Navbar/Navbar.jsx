@@ -6,7 +6,7 @@ const Navbar = () => {
       <ul>
         <li>
           <a href="#movie-entity">
-            > Random
+            { '>'} Random
           </a>
         </li>
       </ul>
