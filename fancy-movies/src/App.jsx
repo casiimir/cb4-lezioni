@@ -3,7 +3,7 @@ import MainSection from './components/MainSection'
 import MainInput from './components/MainInput'
 import Navbar from './components/Navbar'
 // import TodoApp from './components/TodoApp'
-import './App.css';
+import './App.scss';
 
 function App() {
 

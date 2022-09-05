@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { GET } from '../../utils/api.js'; 
 
-import './index.css';
+import './index.scss';
 
 const MovieEntity = ({ movieID }) => {
   const [movieData, setMovieData] = useState({});

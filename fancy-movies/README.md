@@ -16,6 +16,8 @@
 ### Per gli audaci
 - Riguardo al punto 2 dell'esercizio 2, è possibile avere il risultato di cui abbiamo parlato a lezione? Ovvero il `search` della input come cerchio al cui click si anima e si espande la input, precedentemente nascosta. (Attenzione: questo es. non è obbligatorio!)
 
+<hr />
+
 # Esercitazione - 31 Agosto
 
 ### ESERCIZIO 1
@@ -27,6 +29,7 @@
 
 <img src="design-mock1.png" alt="design mock 1" height="300">
 
+<hr />
 
 # Esercitazione - 1 Settembre
 
@@ -41,6 +44,7 @@
 ### ESERCIZIO 2
 - Creare un componente MainModal che verrà lanciata al click del componente MainCard. Ricordo di passare i dati perchè serviranno per renderizzare il contenuto della modale stessa in base al film cliccato
 
+<hr />
 
 # Esercitazione - 2 Settembre
 
@@ -58,3 +62,16 @@
 
 ##### Riepilogo finale
 <img src="recap1.png" alt="design mock 1" height="300">
+
+<hr />
+
+# Esercitazione - 5 Settembre
+
+### ESERCIZIO 1
+- Sulla base della lezione del giorno: tradurre tutti i fogli di stile (.css), di ogni componente, ora in SASS (.scss)
+- Adottare tutte le caratteristiche introdotte a lezione: indentazione, variabili (qual'ora si faccia ricorso ad esse, vedi avanzato)
+- Per chi non avesse finito o (implementato) in proprio progetto, recuperare questa parte
+- Per chi non avesse caricato il tutto su Github, procedere anche qui
+
+### Avanzato
+- Creare un file di `_variables` che contenga variabili per la gestione della palette dei colori dell'applicazione intera
