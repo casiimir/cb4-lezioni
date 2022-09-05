@@ -1,0 +1,7 @@
+.MainSection {
+  padding: 100px 40px;
+  display: flex;
+  background: rgb(16, 0, 28);
+
+  height: 100vh;
+}

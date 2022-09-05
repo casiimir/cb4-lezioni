@@ -1,0 +1,18 @@
+.TopRatedList {
+  display: flex;
+  flex-direction: column;
+}
+
+.TopRatedList--title {
+  padding: 0 20px;
+  color: white;
+  text-align: center;
+}
+
+.TopRatedList--list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
