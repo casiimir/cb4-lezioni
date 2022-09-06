@@ -63,7 +63,9 @@
     width: 22%;
 
     &--btn {
-      @include generic-button();
+      @include generic-button(200px, auto, 20px 30px);
+      box-shadow: 0 0 8px $primary-color;
+      transform: translate(-100px, -120px);
 
       &:hover {
         @include generic-hover();

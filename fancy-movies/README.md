@@ -75,3 +75,14 @@
 
 ### Avanzato
 - Creare un file di `_variables` che contenga variabili per la gestione della palette dei colori dell'applicazione intera
+
+<hr />
+
+# Esercitazione - 5 Settembre
+
+### ESERCIZIO 1
+- Sulla base della lezione del giorno: creare un file realativo chiamato `_mixins` e creare tanti quanti necessari mixins da applicare a tutta l'intera applicazione, quindi componente per componente.
+- Sostituire la vecchia sintassi CSS ora utilizzando SCSS
+
+### Avanzato
+- Semplicemente: aggiungere funzionalità al vostro progetto!

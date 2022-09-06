@@ -9,16 +9,14 @@
   gap: $gap;
 }
 
-@mixin generic-button($width: 200px, $height: auto) {
+@mixin generic-button($width: 200px, $height: auto, $padding: 0, $border: 0) {
   width: $width;
   height: $height;
-  padding: 20px 30px;
-  border: 0;
+  padding: $padding;
+  border: $border;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
-  box-shadow: 0 0 8px $primary-color;
-  transform: translate(-100px, -120px);
   transition: all 0.35s;
 }
 
@@ -31,4 +29,23 @@
   margin: $margin;
   border: $border;
   padding: $padding;
+}
+
+@mixin element-position($position: static, $top: auto, $right: auto, $bottom: auto, $left: auto, $z-index: 1) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  z-index: $z-index;
+}
+
+@mixin border($border: 0, $radius: 0, $top-right: auto,
+              $bottom-right: auto, $bottom-left: auto, $top-left: auto) {
+  border: $border;
+  border-radius: $radius;
+  border-top-right-radius: $top-right;
+  border-bottom-right-radius: $bottom-right;
+  border-bottom-left-radius: $bottom-left;
+  border-top-left-radius: $top-left;
 }
