@@ -1,0 +1,74 @@
+@import '../../styles/_variables';
+@import '../../styles/_mixins';
+
+.MovieEntity {
+  @include flex-element();
+
+  background-color: $third-color;
+  color: $active-text-color;
+  text-transform: uppercase;
+
+  .info {
+    @include flex-element(column, space-between, flex-end);
+    width: 22%;
+    padding: 20px;
+
+    .title{
+      transform: translate(100px, 120px);
+
+      h1 {
+        font-size: 4rem;
+      }
+    }
+
+    .bottom {
+      position: relative;
+      width: 100%;
+      align-self: flex-end;
+      font-weight: bold;
+      font-size: 0.9rem;
+
+      p:nth-child(1),
+      p:nth-child(3) {
+        color: $secondary-border-color;
+      }
+
+      ul {
+        padding: 0;
+        list-style-type: none;
+      }
+
+      .tagline {
+        position: absolute;
+        top: 0;
+        right: -30px;
+        writing-mode: vertical-rl;
+        font-size: 1.5rem;
+        font-weight: bold;
+        height: 300px;
+        transform: translateY(-120px);
+      }
+    }
+  }
+
+  .poster {
+    width: 56%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .book {
+    @include flex-element(column-reverse);
+    width: 22%;
+
+    .btn {
+      @include generic-button(200px, auto, 20px 30px);
+      box-shadow: 0 0 8px $primary-color;
+      transform: translate(-100px, -120px);
+
+      &:hover {
+        @include generic-hover();
+      }
+    }
+  }
+}

@@ -86,3 +86,14 @@
 
 ### Avanzato
 - Semplicemente: aggiungere funzionalità al vostro progetto!
+
+<hr />
+
+# Esercitazione - 7 Settembre
+### ESERCIZIO 1
+- Sulla base della lezione del giorno: Scaricare e installare la dipendenza `react css module`
+- Tradurre tutti i file relativi ai componenti e agli stili implmentando la nuova libreria installata
+- (Nota: continuare eventualmente la stesura del progettino)
+
+### Avanzato
+- Continuare la stesura del proprio progetto, aggiungendo una funzionalità in più a piacere

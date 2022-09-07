@@ -31,7 +31,9 @@ const MainSection = () => {
                                   title="Top Rated"
                                   cardList={ movieLists.topRated.filter(movie => movie.vote_average >= 8.6) }
                                 />}
+      
     </div>
+    
   )
 }
 

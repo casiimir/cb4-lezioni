@@ -1,0 +1,28 @@
+@import '../../styles/_variables';
+@import '../../styles/_mixins';
+
+.MainInput {
+  @include flex-element();
+  @include element-position(fixed, 40px, auto, auto, calc(50% - 170px));
+
+  height: 40px;
+  box-shadow: 0 0 8px $shadow-box;
+  border-radius: 8px;
+  transition: all .35s;
+
+  input {
+    @include border(0, 0, 0, 0, 8px, 8px);
+
+    padding-left: 14px;
+    width: 240px;
+    outline: none;
+    font-weight: bold;
+  }
+
+  button {
+    @include generic-button(100px);
+    @include border(1px solid $secondary-border-color, 0, 8px, 8px);
+
+    background-color: $active-text-color;
+  }
+}

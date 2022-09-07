@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
-import './index.scss';
+// import './index.scss';
+import styles from './index.module.scss';
 
 const MainInput = () => {
   const inputRef = useRef(null);
@@ -24,7 +25,7 @@ const MainInput = () => {
   const onHandleInput = (e) => setInputValue(e.target.value);
 
   return (
-    <form className="MainInput" onSubmit={ onHandleSubmit }>
+    <form className={ styles.MainInput } onSubmit={ onHandleSubmit }>
       {
         isInputVisibile && (
           <>
