@@ -21,7 +21,7 @@ const MovieEntity = ({ movieID }) => {
   } = movieData;
 
   return (
-    <div className={ styles.MovieEntity } id="movie-entity">
+    <div className={`${ styles.MovieEntity } ${ movieData.poster_path && styles.fillsRed }`} id="movie-entity">
       <div className={ styles.info }>
         <div className={ styles.title }>
           <p>title</p>

@@ -1,3 +1,22 @@
+@import './styles/_variables';
+@import './styles/_mixins';
+
 html, body {
   scroll-behavior: smooth;
+}
+
+.buttons {
+  position: absolute;
+  top: 42px;
+  width: 100%;
+  @include flex-element(row, center, stretch, nowrap, 10px);
+
+  button {
+    @include generic-button(140px, 30px, 0 7px);
+
+    &:hover{
+      background-color: $primary_color;
+      color: $active-text-color;
+    }
+  }
 }

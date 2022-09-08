@@ -97,3 +97,14 @@
 
 ### Avanzato
 - Continuare la stesura del proprio progetto, aggiungendo una funzionalità in più a piacere
+
+<hr />
+
+# Esercitazione - 8 Settembre
+### ESERCITAZIONE FINALE
+Sulla base delle ultime lezioni:
+- Completare il progetto fancy-movie o nome che avete scelto, l'importanza è che i rispettino tutti i seguenti punti:
+- - Implementare lo stile utilizzando `sass` e `css-module`
+- - all'interno dei componenti stateless utilizzare `memo`
+- - cominciare a pensare al `responsive` design, dovrei poter consultare il progetto anche da smartphone e tablet
+- - per quanto riguarda funzionalità e feature, in questo progetto si ha completa autonomia, purchè si rispettino i punti sopra

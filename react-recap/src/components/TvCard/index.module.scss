@@ -1,0 +1,40 @@
+.TvCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 180px;
+  min-width: 130px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.35s;
+
+  .title {
+    font-size: 1.2rem;
+    font-family: fantasy, sans-serif;
+    color: rgb(23, 23, 23);
+  }
+
+  .date {
+    margin: 0;
+    font-size: 0.8rem;
+    color: darkgray;
+  }
+
+  .average {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    &::before {
+      content: 'Average: ';
+      font-size: 0.8rem;
+    }
+  }
+
+  &:hover {
+    background: white;
+  }
+}

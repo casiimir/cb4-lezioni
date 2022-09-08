@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import MainCard from '../MainCard';
 import TopRatedList from '../TopRatedList';
 import { GET } from '../../utils/api';
-import './index.css';
+import styles from './index.module.scss';
 
-const MainSection = () => {
+const MainSection = ({ propClass }) => {
   const [movieLists, setMovieLists] = useState({});
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const MainSection = () => {
   }, []);
 
   return (
-    <div className="MainSection">
+    <div className={`${styles.MainSection} ${styles[propClass]}`}>
       { movieLists.upcoming && <MainCard cardData={ movieLists.upcoming[4] }/> }
 
       { movieLists.popular && <TopRatedList
@@ -33,7 +33,6 @@ const MainSection = () => {
                                 />}
       
     </div>
-    
   )
 }
 
