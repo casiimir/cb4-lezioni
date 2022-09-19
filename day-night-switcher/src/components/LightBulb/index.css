@@ -1,0 +1,13 @@
+.LightBulb {
+}
+
+.LightBulb img {
+  width: 140px;
+  transform: rotate(180deg) translateY(4px);
+  cursor: pointer;
+  transition: all .25s;
+}
+
+.LightBulb img:hover {
+  transform: rotate(180deg) translateY(-8px) scale(1.1);
+}
