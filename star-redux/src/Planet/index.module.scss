@@ -1,0 +1,47 @@
+.Planet {
+  padding: 12px 6px;
+  width: 200px;
+  height: 200px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(40, 40, 40);
+    color: rgb(246, 246, 246);
+  }
+
+  .description {
+  }
+
+  .population {
+
+  }
+
+  .population::before {
+    content: "Population: ";
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .diameter {
+
+  }
+
+  .diameter::before {
+    content: "Diameter: ";
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .climate {
+
+  }
+
+  .climate::before {
+    content: "Climate: ";
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}
